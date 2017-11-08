@@ -1,0 +1,15 @@
+{
+  "code" : {
+    "sass" : [
+        "_dev/construct/css/bourbon/*.sass",
+        "_dev/construct/css/layout/*.sass",
+        "_dev/construct/css/*.sass",
+        "_dev/construct/css/bourbon/*.scss",
+        "_dev/construct/css/layout/*.scss"
+    ],
+	"html"      : "_dev/*.html",
+	"css": "_dev/construct/css",
+    "js"   : "_dev/construct/js/*.js",
+    "root": "_dev/"
+  }
+}
