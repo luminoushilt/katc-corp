@@ -1,0 +1,12 @@
+include mixins
+
+nav.navbar.is-katc-red(role='navigation', aria-label='main navigation')
+    .navbar-brand
+        a.navbar-item(href='./'): img(src='//bulma.io/images/bulma-logo.png', alt='Company Logo', width='112', height='28')
+        
+        button.button.is-luminous.navbar-burger.is-radiusless(data-target='navMenu')
+            span
+            span
+            span
+
+    +navlinks

@@ -1,31 +1,23 @@
 doctype html
 html(lang='en')
 	head
-		meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
-		meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
-		meta(name='description', content="The industry's most complete toolchest of marketing ideas for driving business.")
-		title KATC-Contruction Corp
-		link(rel='stylesheet', href='construct/css/construct.css')
-		link(rel='icon', type='image/png', href='construct/img/.ico')
-	body
-		#wrapper.container
-			header.banner
-				.logo.mar-l-10
-					img(src='construct/img/.png', alt='KATC-Corp Logo')
+		meta(charset='utf-8')
+		title Under Construction
+		meta(name='description', content='')
+		meta(name='author', content='')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(rel='stylesheet', href='assets/css/main.css')
+		link(rel='icon', type='image/png', href='assets/img/favicon.ico')
+	body.home
+		include assets/inc/banner
+			
+		section.hero.is-light.hero-img
+			
+		section.section
+			.container
+				h1.title.is-1 Under Construction
+				p.intro-statement.
+					Welcome!  You have found <span class="site-name"><a href="">KATC Construction.</a></span>.  It's currently under construction at the moment.  Please remember to visit us again soon.
+		include assets/inc/footer
 				
-				include construct/includes/nav
-
-				p.phone-number.mar-r-10
-					a(href='tel:7542046460') (754) 204 - 6460
-
-			main
-				section.hero-section
-					h1.site-heading KATC Construction Corp
-					p.site-subtitle
-						| &quot;Rain is for the Outside, not the inside.&quot; Quality Roofing - KATC Construction Corp
-					a.site-btn(href='#', target='_self') Get a free Quote
-					
-				section.content-gold
-					p
-						| At KATC Construction Corp., we promoise to give your home or business the best roof in the industry.  We start by using the industry's highest quality roofing and waterproofing materials. We are dedicated to using superior products that last for decades.
-		script(type='text/javascript', src='construct/js/construct.js')
+		script(src='assets/js/scripts.js')

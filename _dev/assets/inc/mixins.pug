@@ -1,0 +1,5 @@
+mixin navlinks
+
+    #navMenu.navbar-menu.has-text-centered.navi.navbar-end
+        each val, link in {'./' : 'Home' , '#Contact' : 'Contact'}
+            a.navbar-item(href=link)= val

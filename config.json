@@ -1,16 +1,24 @@
 {
   "code" : {
-    "sass" : [
-        "_dev/construct/css/bourbon/*.sass",
-        "_dev/construct/css/layout/*.sass",
-        "_dev/construct/css/*.sass",
-        "_dev/construct/css/bourbon/*.scss",
-        "_dev/construct/css/layout/*.scss"
-    ],
-    "pug"  : "_dev/**/*.pug",
-	"html" : "_dev/*.html",
-	"css"  : "_dev/construct/css",
-    "js"   : "_dev/construct/js/*.js",
-    "root" : "_dev/"
+	"sass"      : "_dev/assets/bulma/**/main.sass",
+	"sassDir"   : [
+				"_dev/assets/bulma/**/*.sass",
+				"_dev/assets/bulma/**/*.scss"
+				],
+	"pug"       : "_dev/**/*.pug",
+	"js"        : "_dev/assets/js/*.js",
+	"img"       : "_dev/assets/img/*",
+	"root"      : "_dev/"
+  },
+  "output" : {
+	  "cssIn"   : "_site/assets/css/*.css",
+	  "cssOut"  : "_site/assets/css/",
+	  "js"      : "_site/assets/js/",
+	  "img"     : "_site/assets/img",
+	  "php"     : "_site/**/*.php",
+	  "root"    : "_site/"
+  },
+  "config": {
+	"devUrl": "http://hachi.local"
   }
 }
