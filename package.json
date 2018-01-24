@@ -1,7 +1,7 @@
 {
   "name": "Hilt-Dev-Kit",
   "version": "1.0.4",
-  "description": "A starter project including setup for GulpJS, SASS & BroswerSync",
+  "description": "A starter project including setup for Pug, GulpJS, SASS & BroswerSync",
   "main": "index.js",
   "repository": "https://github.com/luminoushilt/Hilt-Starter-Kit.git",
   "author": "Luminous Hilt (http://luminoushilt.com/)",
@@ -11,6 +11,8 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-imagemin": "^3.1.1",
     "gulp-sass": "^3.1.0"
   }
 }

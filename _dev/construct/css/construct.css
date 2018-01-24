@@ -967,7 +967,6 @@ hr {
       -ms-flex-line-pack: center;
           align-content: center;
   background-color: #B71A2D;
-  border-bottom: 1px solid #ccc;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -983,6 +982,11 @@ hr {
           justify-content: space-between;
   margin: 0;
   padding: 5px 0;
+}
+
+.banner a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-menu {
@@ -1005,4 +1009,82 @@ hr {
   margin: 0 12px;
   padding: 0;
   text-decoration: none;
+}
+
+#wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 110px 250px;
+}
+
+.hero-section {
+  background-color: #333;
+  background-image: url(//fillmurray.com/2000/650);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: #ccc;
+  color: #fff;
+  min-height: 650px;
+  text-align: center;
+}
+
+.site-heading, .site-subtitle {
+  color: #fff;
+  font-weight: bold;
+  font-size: 120px;
+  margin: 20px 20px 0;
+  text-shadow: 2px 2px #000;
+}
+
+.site-subtitle {
+  margin: 0 0 40px;
+  font-size: 28px;
+  font-weight: normal;
+}
+
+.site-btn {
+  background-color: #199CD8;
+  border: 1px solid #0e5a7d;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 5px #333;
+          box-shadow: 2px 2px 5px #333;
+  color: #fff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0 auto;
+  outline: none;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.site-btn:hover {
+  background-color: #0e5a7d;
+  color: #fff;
+}
+
+.site-btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.content-gold {
+  background-color: #B6923C;
+  color: #fff;
+  margin: 0;
+  padding: 110px 450px;
+  text-align: center;
+}
+
+.content-gold p {
+  font-size: 32px;
+  font-weight: 300;
 }

@@ -3,6 +3,7 @@
 // --------------------------------------------------------------------
 
 var gulp        	= require('gulp'),
+	pug				= require('gulp-pug'),
 	sass        	= require('gulp-sass'),
 	plumber     	= require('gulp-plumber'),
 	prefix      	= require('gulp-autoprefixer'),
@@ -26,6 +27,21 @@ var onError = function(err) {
 	this.emit('end');
 };
 
+
+// --------------------------------------------------------------------
+// Task: Pug
+// --------------------------------------------------------------------
+
+gulp.task('pug', function buildHTML() {
+
+	return gulp.src(code.pug)
+		.pipe(plumber({
+			errorHandler: onError
+		}))
+		.pipe(pug())
+		.pipe(gulp.dest(code.root))
+		.pipe(browserSync.stream());
+});
 
 // --------------------------------------------------------------------
 // Task: Sass
@@ -52,7 +68,7 @@ gulp.task('sass', function() {
 // Task: Browser Sync Server
 // --------------------------------------------------------------------
 
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve', ['pug','sass'], function() {
 	browserSync.init({
 		server: {
 			baseDir: code.root
@@ -66,8 +82,8 @@ gulp.task('serve', ['sass'], function() {
 // --------------------------------------------------------------------
 
 gulp.task('watch', function() {
+	gulp.watch(code.pug, ['pug']);
 	gulp.watch(code.sass, ['sass']);
-	gulp.watch(code.html).on('change', browserSync.reload);
 	gulp.watch(code.js).on('change', browserSync.reload);
 });
 

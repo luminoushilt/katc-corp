@@ -7,9 +7,10 @@
         "_dev/construct/css/bourbon/*.scss",
         "_dev/construct/css/layout/*.scss"
     ],
-	"html"      : "_dev/*.html",
-	"css": "_dev/construct/css",
+    "pug"  : "_dev/**/*.pug",
+	"html" : "_dev/*.html",
+	"css"  : "_dev/construct/css",
     "js"   : "_dev/construct/js/*.js",
-    "root": "_dev/"
+    "root" : "_dev/"
   }
 }
