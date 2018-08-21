@@ -13208,6 +13208,19 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
 
 .is-katc-red a-text, .is-katc-red .brand-logo-text {
   font-size: 45px;
+  margin: 0 15px;
+}
+
+.is-katc-red .no-hover:hover {
+  background-color: #B71A2D;
+  color: white;
+}
+
+@media screen and (max-width: 1023px) {
+  .is-katc-red a.text-color {
+    background-color: white;
+    color: #B71A2D;
+  }
 }
 
 html, body {

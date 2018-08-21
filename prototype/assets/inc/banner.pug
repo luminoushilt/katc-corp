@@ -2,7 +2,6 @@ include mixins
 
 nav.navbar.is-katc-red(role='navigation', aria-label='main navigation')
     .navbar-brand
-        //- a.navbar-item(href='./'): img(src='//bulma.io/images/bulma-logo.png', alt='Company Logo', width='112', height='28')
         a.navbar-item.brand-logo(href='./'): span.icon.brand-logo-text: i.fas.fa-home.brand-logo-text-size
         
         button.button.is-luminous.navbar-burger.is-radiusless(data-target='navMenu')
@@ -11,3 +10,5 @@ nav.navbar.is-katc-red(role='navigation', aria-label='main navigation')
             span
 
     +navlinks
+
+    a.navbar-item.navbar-end.no-hover(href='tel:7542046460') (754) 204-6460
