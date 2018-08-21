@@ -7,13 +7,13 @@
   "author": "Luminous Hilt (http://luminoushilt.com/)",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.18.8",
+    "browser-sync": "^2.24.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^3.0.0",
     "gulp-imagemin": "^3.1.1",
-    "gulp-pug": "^3.3.0",
     "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "pump": "^2.0.0"
