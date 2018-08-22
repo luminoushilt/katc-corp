@@ -13230,6 +13230,16 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
   background-size: cover;
   height: 45vh;
   margin: 0;
+  width: 100%;
+}
+
+.services .hero-img {
+  background-image: url(../img/hero-services.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  margin: 0;
   max-width: 100vw;
   width: 100%;
 }
