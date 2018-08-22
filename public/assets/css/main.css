@@ -13136,8 +13136,8 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
   padding-left: 0px;
 }
 
-.hero-img {
-  background-image: url(../img/construct.jpg);
+.home .hero-img {
+  background-image: url(../img/hero-home.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13221,6 +13221,17 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
     background-color: white;
     color: #B71A2D;
   }
+}
+
+.contact .hero-img {
+  background-image: url(../img/hero-contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh;
+  margin: 0;
+  max-width: 100vw;
+  width: 100%;
 }
 
 html, body {

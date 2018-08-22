@@ -1,5 +1,5 @@
 mixin navlinks
 
     #navMenu.navbar-menu.has-text-centered.navi.navbar-start
-        each val, link in {'./' : 'Home' , '#Contact' : 'Contact'}
+        each val, link in {'/' : 'Home' , '/About' : 'About', '/Services' : 'Services', '/Contact' : 'Contact'}
             a.navbar-item.text-color(href=link)= val
