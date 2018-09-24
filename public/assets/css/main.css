@@ -13230,6 +13230,9 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.home .hero-img, .home .hero-img-two {
   background-color: #0a0a0a;
   background-image: url(../img/hero-home.jpg);
   background-position: top;
@@ -13239,6 +13242,17 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
   margin: 0;
   max-width: 100vw;
   width: 100%;
+}
+
+.home .hero-img-two {
+  background-image: url(../img/hero-home2.jpg);
+  position: relative;
+}
+
+.home .hero-img-two a.position-link {
+  bottom: 35px;
+  position: absolute;
+  right: 35px;
 }
 
 .home .hero h1.hero-title {
@@ -13254,6 +13268,11 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
   margin: 0 0 25px;
   padding: 0;
   text-shadow: 1px 1px #0a0a0a;
+}
+
+.home .hero a.has-shadow {
+  -webkit-box-shadow: 2px 2px 10px #0a0a0a;
+          box-shadow: 2px 2px 10px #0a0a0a;
 }
 
 .white-title {
@@ -13282,6 +13301,10 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
   color: #B6923C;
 }
 
+.has-text-shadow {
+  text-shadow: 1px 1px #0a0a0a !important;
+}
+
 @media screen and (max-width: 1023px) {
   .is-size-8-touch {
     font-size: 0.6rem !important;
@@ -13308,7 +13331,7 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
           justify-content: center;
 }
 
-.about .hero-img {
+.about .hero-img, .about .home .hero-img-two, .home .about .hero-img-two {
   background-image: url(../img/hero-about.jpg);
   background-position: top;
   background-repeat: no-repeat;
@@ -13332,7 +13355,41 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
   color: #B6923C;
 }
 
-.services .hero-img {
+.image-container {
+  height: 450px;
+  width: 450px;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+.has-round-border {
+  border: 1px solid #ccc;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.services .hero {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-image: url(../img/hero-services.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -13341,6 +13398,14 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
   margin: 0;
   max-width: 100vw;
   width: 100%;
+}
+
+.services .hero h1.hero-title {
+  font-size: 75px;
+  font-weight: 700;
+  margin: -55px 0 0;
+  padding: 0;
+  text-shadow: 2px 2px #0a0a0a;
 }
 
 .contact .hero {
