@@ -1,6 +1,6 @@
 include mixins
 
-nav.navbar.is-katc-red(role='navigation', aria-label='main navigation')
+nav.navbar.is-katc-red.ie-nine(role='navigation', aria-label='main navigation')
     .navbar-brand
         a.navbar-item.brand-logo(href='/'): span.icon.brand-logo-text: i.fas.fa-home.brand-logo-text-size
         
@@ -11,4 +11,4 @@ nav.navbar.is-katc-red(role='navigation', aria-label='main navigation')
 
     +navlinks
 
-    a.navbar-item.navbar-end.is-hidden-touch.no-hover(href='tel:7542046460') (754) 204-6460
+    a.navbar-item.navbar-end.is-hidden-touch.no-hover.is-tel-link(href='tel:7542046460') (754) 204-6460

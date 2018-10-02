@@ -38,19 +38,24 @@ $lh-org: #f6921e
 $katc-red: #B71A2D
 $katc-gold: #B6923C
 
-// 5. Add new color variables to the color map.
+// 5. Setup additional sizing variables.
+$full-viewport-width: 99vw
+$full-viewport-height: 100vh
+$full-width: 100%
+
+// 6. Add new color variables to the color map.
 @import sass/utilities/derived-variables
 
 $addColors: ("twitter": ($twitter, $twitter-invert), "linkedin": ($linkedin, $linkedin-invert), "github": ($github, $github-invert))
 
 $colors: map-merge($colors, $addColors)
 
-// 6. Import the rest of Bulma
+// 7. Import the rest of Bulma
 @import bulma
 
 // set heading fonts
 h1, h2, h3, h4, h5, h6, .title, .subtitle
     font-family: $family-title
 
-// 7. Import additional styles.
+// 8. Import additional styles.
 @import styles/_styles-index
