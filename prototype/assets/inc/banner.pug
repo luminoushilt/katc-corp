@@ -1,14 +1,11 @@
-include mixins
+include mixins.pug
 
-nav.navbar.is-katc-red.ie-nine(role='navigation', aria-label='main navigation')
-    .navbar-brand
-        a.navbar-item.brand-logo(href='/'): span.icon.brand-logo-text: i.fas.fa-home.brand-logo-text-size
-        
-        button.button.is-luminous.navbar-burger.is-radiusless(data-target='navMenu')
-            span
-            span
-            span
-
-    +navlinks
-
-    a.navbar-item.navbar-end.is-hidden-touch.no-hover.is-tel-link(href='tel:7542046460') (754) 204-6460
+header.navbar-brand
+	a.brand-logo(href='./')
+		//- img(src='../assets/img/luminous_logo_nav.svg', alt='Company Logo', width='40', height='40')
+		<span class="navbar-company-name">Tillman Connection</span>
+	input#navbar-toggle.navbar-toggle(type='checkbox', name='navbar-toggle')
+	label.navbar-toggle-label(for='navbar-toggle')
+		span.navbar-toggle-label-icon
+	nav.navbar(role='navigation')
+		+navlinks
