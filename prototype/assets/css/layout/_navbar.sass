@@ -1,10 +1,6 @@
-/* ========================
-		Navigation
-	======================= */
-
 .navbar-brand
 	align-items: center
-	background-color: $tillman
+	background-color: $katc-red
 	display: flex
 	flex-direction: column
 	justify-content: center
@@ -16,6 +12,7 @@
 	width: 100vw
 
 .brand-logo
+	display: flex
 	margin: 1rem
 	text-decoration: none
 
@@ -26,6 +23,8 @@
 	font-size: 1rem
 	font-weight: 700
 	text-transform: uppercase
+	margin-left: 1rem
+	margin-top: .6rem
 
 .navbar
 	transform: scale(1, 0)
@@ -34,7 +33,7 @@
 
 .navbar-menu
 	align-items: center
-	background-color: $tillman
+	background-color: $katc-red
 	display: flex
 	flex-direction: column
 	left: -50vw
@@ -51,8 +50,14 @@
 	text-transform: uppercase
 	transition: opacity $base-duration $navbar-timing
 
-	&:hover
-		color: $dark-gray
+	&:hover,
+	&:focus
+		color: $katc-gold
+
+	&:last-of-type
+		display: flex
+		flex-direction: column
+		justify-content: flex-end
 
 .navbar-toggle
 	display: none
