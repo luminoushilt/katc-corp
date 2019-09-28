@@ -1,0 +1,5 @@
+mixin navlinks
+
+    .navbar-menu
+        each val, link in {'/' : 'Home' , '/About' : 'About' , '/Services' : 'Services' , '/Contact' : 'Contact', 'tel:7542046460' : '(754) 204 - 6460'}
+            a.navbar-item(href=link)= val

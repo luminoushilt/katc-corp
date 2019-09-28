@@ -1,0 +1,178 @@
+.navbar-brand
+	align-items: center
+	background-color: $katc-red
+	display: flex
+	flex-direction: column
+	justify-content: center
+	left: 0px
+	position: absolute
+	right: 0px
+	text-align: center
+	top: 0px
+	width: 100vw
+
+.brand-logo
+	display: flex
+	margin: 1rem
+	text-decoration: none
+
+.navbar-company-name
+	color: $white
+	display: block
+	font-family: $heading-font-family
+	font-size: 1rem
+	font-weight: 700
+	text-transform: uppercase
+	margin-left: 1rem
+	margin-top: .6rem
+
+.navbar
+	transform: scale(1, 0)
+	transform-origin: top
+	transition: transform 400ms $navbar-timing
+
+.navbar-menu
+	align-items: center
+	background-color: $katc-red
+	display: flex
+	flex-direction: column
+	left: -50vw
+	position: absolute
+	top: 100%
+	width: 100vw
+
+.navbar-item
+	color: $white
+	font-size: 1.2rem
+	margin-bottom: 1em
+	opacity: 0
+	text-decoration: none
+	text-transform: uppercase
+	transition: opacity $base-duration $navbar-timing
+
+	&:hover,
+	&:focus
+		color: $katc-gold
+
+	&:last-of-type
+		display: flex
+		flex-direction: column
+		justify-content: flex-end
+
+.navbar-toggle
+	display: none
+
+.navbar-toggle:checked ~ .navbar
+	transform: scale(1,1)
+
+.navbar-toggle:checked ~ .navbar .navbar-item
+	opacity: 1
+	transition: opacity $navbar-duration $navbar-timing $navbar-delay
+
+.navbar-toggle-label
+	align-items: center
+	cursor: pointer
+	display: flex
+	height: 100%
+	left: 0
+	margin-left: 1em
+	position: absolute
+	top: 0
+
+	&-icon,
+	&-icon::before,
+	&-icon::after
+		background-color: $white
+		border-radius: 2px
+		display: block
+		height: 2px
+		position: relative
+		transition: all $navbar-timing $base-duration
+		width: 2em
+
+	&-icon::before,
+	&-icon::after
+		content: ''
+		position: absolute
+
+	&-icon::before
+		bottom: 7px
+
+	&-icon::after
+		top: 7px
+
+.navbar-toggle:checked ~ .navbar-toggle-label
+	transform: scale(.75) rotate(45deg)
+
+.navbar-toggle:checked ~ .navbar-toggle-label .navbar-toggle-label-icon::before
+	opacity: 0
+
+.navbar-toggle:checked ~ .navbar-toggle-label .navbar-toggle-label-icon::after
+	transform: translateY(-7px) rotate(-90deg)
+
+@media screen and (min-width: $desktop)
+	.navbar-toggle-label
+		display: none
+
+	.navbar-brand
+		display: flex
+		flex-direction: row
+		justify-content: space-around
+		text-align: left
+		display: grid
+		grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr
+
+		.brand-logo
+			align-self: center
+			display: flex
+			flex-direction: row
+			grid-column: 2/3
+
+			.navbar-company-name
+				display: inline-block
+				margin-left: 20px
+				font-size: 1.5rem
+
+		.navbar, .navbar-menu
+			all: unset
+
+		.navbar
+			align-content: center
+			align-items: center
+			align-self: center
+			display: flex
+			grid-column: 3/4
+			justify-content: flex-end
+			margin: 1rem
+			transform: scale(1, 1)
+
+			.navbar-menu
+				align-self: center
+				display: flex
+				flex-direction: row
+				left: initial
+				margin: 1rem
+				position: static
+				top: initial
+				width: auto
+
+				.navbar-item
+					margin: 0 0 0 3em
+					opacity: 1
+					position: relative
+
+					&::before
+						background-color: $dark-gray
+						content: ''
+						display: block
+						height: 5px
+						left: 0
+						position: absolute
+						right: 0
+						top: -.75em
+						transform: scale(0,1)
+						transition: transform $navbar-timing $navbar-duration
+
+					&:hover::before,
+					&:focus::before
+						transform: scale(1,1)
