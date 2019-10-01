@@ -29,7 +29,7 @@ body {
 }
 
 // Selection colors (easy to forget)
-::selection{
-  background: $selection-color;
-  color: $white;
+::selection {
+  background: $katc-gold;
+  color: $katc-red;
 }
