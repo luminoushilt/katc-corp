@@ -1,5 +1,5 @@
 mixin navlinks
 
-    .navbar-menu
-        each val, link in {'/' : 'Home' , '/About' : 'About' , '/Services' : 'Services' , '/Contact' : 'Contact', 'tel:7542046460' : '(754) 204 - 6460'}
-            a.navbar-item(href=link)= val
+    #navMenu.navbar-menu.is-katc-red.has-text-centered
+        each val, link in {'/' : 'Home' , '/About' : 'About' , '/Services' : 'Services' , '/Contact' : 'Contact'}
+            a.navbar-item.pad-b-10(href=link)= val
