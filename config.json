@@ -1,9 +1,9 @@
 {
   "code" : {
-	"sass"      : "prototype/assets/css/**/main.sass",
+	"sass"      : "prototype/assets/bulma/**/main.sass",
 	"sassDir"   : [
-				"prototype/assets/css/**/*.sass",
-				"prototype/assets/css/**/*.scss"
+				"prototype/assets/bulma/**/*.sass",
+				"prototype/assets/bulma/**/*.scss"
 				],
 	"pug"       : "prototype/**/*.pug",
 	"js"        : "prototype/assets/js/*.js",
