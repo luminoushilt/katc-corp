@@ -1,21 +1,28 @@
 html
-	scroll-behavior: smooth
+  scroll-behavior: smooth
 
 html, body
-	display: table
-	height: 100vh
-	margin: 0
-	width: 100vw
-	
+  display: table
+  height: 100vh
+  margin: 0
+  width: 100vw
+
+p
+  font-weight: 300
+  
 .white-title
-	color: $white !important
+  color: $white !important
+
+  &-subtitle
+    a
+      color: $white !important
 
 .is-katc-gold
-	background-color: $katc-gold
-	color: $white
+  background-color: $katc-gold
+  color: $white
 
-	h1, h2, a
-		color: $white !important
+  h1, h2, a
+    color: $white !important
 
 
 .is-katc-red
@@ -39,12 +46,17 @@ html, body
             outline: none
 
 .has-text-shadow
-	text-shadow: 2px 2px $black	
+  text-shadow: 2px 2px $black	
 
 .flex-left
-	justify-content: flex-start
-	margin-right: auto
+  justify-content: flex-start
+  margin-right: auto
+  order: 1
 
 .flex-right
-	justify-content: flex-end
-	margin-left: auto
+  justify-content: flex-end
+  margin-left: auto
+  order: 2
+
+.is-size-0
+  font-size: 5rem

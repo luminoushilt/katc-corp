@@ -1,3 +1,6 @@
+.hero
+	width: $site-width
+	
 .hero-img
 	background-attachment: fixed
 	background-image: url(../img/hero-home.jpg)
@@ -17,3 +20,8 @@
 
 		&:visited, &:focus, &:hover
 			color: $katc-gold
+
+.hero-img2
+	@extend .hero-img
+	background-image: url(../img/hero-home2.jpg)
+	color: $white
