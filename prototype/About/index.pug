@@ -1,10 +1,11 @@
 doctype html
 html(lang='en')
 	head
-		title KATC Construction Corp. | About
+		title About | KATC Construction Corp.
 		meta(charset='UTF-8')
-		meta(name='description', content='')
-		meta(name='author', content='')
+		meta(name='description', content='Roofing specialist in the south florida region')
+		meta(name='author', content='Luminous Hilt')
+		meta(name='keywords', content='KATC, Construction, roofing, shingles, miami, ft. lauderdale, florida, gutters, about')
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		meta(http-equiv='X-UA-Compatible', content='ie=edge')
 		link(rel='stylesheet', href='//use.fontawesome.com/releases/v5.2.0/css/all.css', integrity='sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ', crossorigin='anonymous')
@@ -48,9 +49,12 @@ html(lang='en')
 						p.is-size-3.is-size-5-touch.
 							Our friendly, skilled and professional staff will ensure that you are given the best available price, as well as walk you through the process of the project. We service South Florida, (Dade, Broward) and also Palm Beach counties. “Why let rain from the outside come inside?” Call us for your free quote today! 
 
-		section.is-katc-gold.pad-t-50.pad-b-50
-			p.has-text-centered.white-title.is-size-1-tablet.is-size-3-mobile Call <a class="white-title" href="tel:7542046460">(754) 204-6460</a>
+		section.hero.is-katc-gold
+			.hero-body
+				.container.has-text-centered
+					a.is-size-1.is-size-3-touch(href="tel:7542046460") Call (754) 204 - 6460
 
 		include ../assets/inc/footer
+		include ../assets/inc/backtotop.pug
 				
 		script(src='../assets/js/scripts.js')

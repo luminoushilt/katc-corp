@@ -1,10 +1,11 @@
 doctype html
-html(lang='en')
+html(lang='en') 
 	head
-		title KATC Construction Corp. | Services
+		title Services | KATC Construction Corp.
 		meta(charset='UTF-8')
-		meta(name='description', content='')
-		meta(name='author', content='')
+		meta(name='description', content='Roofing specialist in the south florida region')
+		meta(name='author', content='Luminous Hilt')
+		meta(name='keywords', content='KATC, Construction, roofing, shingles, miami, ft. lauderdale, florida, gutters, services')
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		meta(http-equiv='X-UA-Compatible', content='ie=edge')
 		link(rel='stylesheet', href='//use.fontawesome.com/releases/v5.2.0/css/all.css', integrity='sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ', crossorigin='anonymous')
@@ -13,8 +14,10 @@ html(lang='en')
 	body.services
 		include ../assets/inc/banner
 			
-		section.hero.is-light.hero-img
-			h1.title.is-size-3-mobile.white-title.hero-title Services
+		section.hero.is-large
+			.hero-body.hero-img
+				.container.has-text-centered
+					h1.white-title.title.has-text-shadow.is-size-0.is-size-2-touch Services
 			
 		section.section
 			.container
@@ -23,9 +26,12 @@ html(lang='en')
 					Welcome!  You have found <span class='site-name'><a href=''>KATC Construction</a></span>.  It's currently under construction at the moment.  Please remember to visit us again soon.
 		
 
-		section.is-katc-gold.pad-t-50.pad-b-50
-			p.has-text-centered.white-title.is-size-1-tablet.is-size-3-mobile Call <a class="white-title" href="tel:7542046460">(754) 204-6460</a>
+		section.hero.is-katc-gold
+			.hero-body
+				.container.has-text-centered
+					a.is-size-1.is-size-3-touch(href="tel:7542046460") Call (754) 204 - 6460
 			
 		include ../assets/inc/footer
+		include ../assets/inc/backtotop.pug
 				
 		script(src='../assets/js/scripts.js')
