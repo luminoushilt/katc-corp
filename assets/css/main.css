@@ -14381,7 +14381,7 @@ html, body {
   display: table;
   height: 100vh;
   margin: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 p {
@@ -14475,10 +14475,6 @@ p {
   }
 }
 
-header {
-  width: 99.199vw;
-}
-
 .company-name {
   -webkit-align-self: center;
       -ms-flex-item-align: center;
@@ -14503,10 +14499,12 @@ a.brand-logo:hover {
   max-height: 60px;
 }
 
-.hero {
-  width: 99.199vw;
-}
-
+/* ========================
+		Footer
+	@mixin ====================== */
+/* ========================
+		Home
+	@mixin ====================== */
 .hero-img, .hero-img2, .about .hero-img, .services .hero-img, .contact .hero-img {
   background-attachment: fixed;
   background-image: url(../img/hero-home.jpg);
@@ -14557,6 +14555,9 @@ a.brand-logo:hover {
   }
 }
 
+/* ========================
+		About
+	@mixin ====================== */
 .about .hero-img2, .about .hero-img {
   background-image: url(../img/hero-about.jpg);
 }
@@ -14603,6 +14604,9 @@ a.brand-logo:hover {
   }
 }
 
+/* ========================
+		Services
+	@mixin ====================== */
 .services .hero-img2, .services .hero-img {
   background-image: url(../img/hero-services.jpg);
 }
@@ -14675,6 +14679,9 @@ a.brand-logo:hover {
   color: white;
 }
 
+/* ========================
+		Contact
+	@mixin ====================== */
 .contact .hero-img2, .contact .hero-img {
   background-image: url(../img/hero-contact.jpg);
   background-position: bottom;
@@ -14712,7 +14719,7 @@ a.brand-logo:hover {
   opacity: 1;
 }
 
-.back-to-top .sp-arrow-up {
+.back-to-top .fa-angle-up {
   color: white;
   font-size: 25px;
   -webkit-transform: translateY(6px);
@@ -14725,7 +14732,7 @@ a.brand-logo:hover {
     height: 60px;
     width: 60px;
   }
-  .back-to-top .sp-arrow-up {
+  .back-to-top .fa-angle-up {
     font-size: 40px;
     -webkit-transform: translateY(8px);
         -ms-transform: translateY(8px);
