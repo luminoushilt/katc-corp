@@ -1,23 +1,21 @@
+/* ========================
+		Home
+	======================= */
+	
 .hero-img
-	background-image: url(../img/construct.jpg)
+	background-attachment: fixed
+	background-image: url(../img/hero-home.jpg)
 	background-position: top
 	background-repeat: no-repeat
 	background-size: cover
-	height: 45vh
-	margin: 0
-	max-width: 100vw
-	width: 100%
 
-.white-title
-	color: $white !important
+	+touch
+		background-position: center
+		min-height: 40vh
 
 .intro-statement
 	font-size: 2.3rem
 	font-weight: 300
-
-.is-katc-gold
-	background-color: $katc-gold
-	color: $white
 
 .site-name
 	color: $katc-gold
@@ -27,3 +25,17 @@
 
 		&:visited, &:focus, &:hover
 			color: $katc-gold
+
+.hero-img2
+	@extend .hero-img
+	background-image: url(../img/hero-home2.jpg)
+	color: $white
+	position: relative
+
+	a
+		position: absolute
+		right: 20px
+		top: 300px
+
+		+touch
+			position: static
