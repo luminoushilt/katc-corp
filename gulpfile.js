@@ -3,15 +3,15 @@
 // --------------------------------------------------------------------
 
 var gulp 				= require('gulp'),
-	pug						= require('gulp-pug'),
-	sass        	= require('gulp-sass'),
+pug						= require('gulp-pug'),
+	sass        		= require('gulp-sass'),
 	plumber 			= require('gulp-plumber'),
 	prefix 				= require('gulp-autoprefixer'),
 	image 				= require('gulp-imagemin'),
 	cleanCSS			= require('gulp-clean-css'),
 	uglify 				= require('gulp-uglify'),
 	config 				= require('./config.json'), // external config file
-	browserSync 	= require('browser-sync').create();
+	browserSync 		= require('browser-sync').create();
 
 
 // --------------------------------------------------------------------
