@@ -14379,6 +14379,7 @@ html {
 
 html, body {
   display: table;
+  font-weight: 300;
   height: 100vh;
   margin: 0;
   width: 100%;
@@ -14412,6 +14413,7 @@ p {
 
 .is-katc-red a {
   color: white;
+  font-weight: 300;
 }
 
 .is-katc-red a:hover {
@@ -14424,13 +14426,12 @@ p {
     background-color: #B71A2D !important;
     color: white;
   }
-}
-
-.is-katc-red a:visited, .is-katc-red a:active, .is-katc-red a:focus {
-  border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  outline: none;
+  .is-katc-red a:hover:visited, .is-katc-red a:hover:active, .is-katc-red a:hover:focus {
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    outline: none;
+  }
 }
 
 .has-text-shadow {
@@ -14556,8 +14557,8 @@ a.brand-logo:hover {
 }
 
 /* ========================
-		About
-	@mixin ====================== */
+ About
+ @mixin ====================== */
 .about .hero-img2, .about .hero-img {
   background-image: url(../img/hero-about.jpg);
 }
@@ -14576,6 +14577,7 @@ a.brand-logo:hover {
 }
 
 .about .image-container img {
+  border: 1px solid #ccc;
   border-radius: 20px;
   display: block;
 }
@@ -14605,8 +14607,8 @@ a.brand-logo:hover {
 }
 
 /* ========================
-		Services
-	@mixin ====================== */
+ Services
+ @mixin ====================== */
 .services .hero-img2, .services .hero-img {
   background-image: url(../img/hero-services.jpg);
 }
@@ -14616,9 +14618,14 @@ a.brand-logo:hover {
 }
 
 .services .hero-body .columns .column.is-tiled {
+  margin: 0;
   max-width: 580px;
-  padding: 0;
+  padding: 0 1.2rem;
   width: 100%;
+}
+
+.services .hero-body .columns .column.is-tiled.is-text {
+  padding-bottom: 2.5rem;
 }
 
 .services .hero-body .columns .column.is-tiled h3 {
@@ -14634,20 +14641,34 @@ a.brand-logo:hover {
       -ms-flex-negative: 1;
           flex-shrink: 1;
   height: 420px;
-  margin: 10px auto;
+  margin: 90px auto 25px;
+  padding: 0;
   max-width: 580px;
   width: 100%;
 }
 
 .services .hero-body .columns .column .image-container img {
-  border-radius: 20px;
-  height: 100%;
-  max-width: 100%;
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1023px) {
   .services .hero-body .columns .column {
     margin-top: 1.3rem;
+  }
+  .services .hero-body .columns .column.is-tiled {
+    margin: 0 auto;
+  }
+  .services .hero-body .columns .column.flex-right {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .services .hero-body .columns .column .image-container {
+    height: auto;
+    margin-top: 10px;
   }
 }
 
