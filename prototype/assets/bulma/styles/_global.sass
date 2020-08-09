@@ -3,13 +3,14 @@ html
 
 html, body
   display: table
+  font-weight: 300
   height: 100vh
   margin: 0
   width: $site-width
 
 p
   font-weight: 300
-  
+
 .white-title
   color: $white !important
 
@@ -24,29 +25,29 @@ p
   h1, h2, a
     color: $white !important
 
-
 .is-katc-red
-    background-color: $katc-red
-    color: $white
+  background-color: $katc-red
+  color: $white
 
-    a
+  a
+    color: $white
+    font-weight: 300
+
+    &:hover
+      background-color: $white !important
+      color: $katc-red
+
+      +touch
+        background-color: $katc-red !important
         color: $white
 
-        &:hover
-            background-color: $white !important
-            color: $katc-red
-
-            +touch
-                background-color: $katc-red !important
-                color: $white
-
         &:visited, &:active, &:focus
-            border: none
-            box-shadow: none
-            outline: none
+          border: none
+          box-shadow: none
+          outline: none
 
 .has-text-shadow
-  text-shadow: 2px 2px $black	
+  text-shadow: 2px 2px $black
 
 .flex-left
   justify-content: flex-start

@@ -1,6 +1,6 @@
 /* ========================
-		Services
-	======================= */
+ Services
+ ======================= */
 
 .services
 	.hero-img
@@ -12,10 +12,13 @@
 			.column
 				margin: 0 auto
 				&.is-tiled
-					// border: 1px dashed blue
+					margin: 0
 					max-width: 580px
-					padding: 0
+					padding: 0 1.2rem
 					width: 100%
+
+					&.is-text
+						padding-bottom: 2.5rem
 
 					h3
 						text-align: center
@@ -24,19 +27,28 @@
 					display: flex
 					flex-shrink: 1
 					height: 420px
-					margin: 10px auto
-					// max-height: 420px
+					margin: 90px auto 25px
+					padding: 0
 					max-width: 580px
 					width: 100%
 
 					img
-						// border: 1px solid $border-color
-						border-radius: 20px
-						height: 100%
-						max-width: 100%
-				
+						border: 1px solid $border-color
+						margin: 0
+						padding: 0
+
 				+touch
 					margin-top: 1.3rem
+
+					&.is-tiled
+						margin: 0 auto
+
+					&.flex-right
+						order: 1
+
+					.image-container
+						height: auto
+						margin-top: 10px
 
 		.font-icon-container, .review-icon
 			align-items: center
