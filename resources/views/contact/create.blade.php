@@ -19,18 +19,24 @@
         <div class="container">
           <div class="columns is-multiline">
             <div class="column is-half">
-              <form class="control" action="/Contact/.index.html" method="post">
+              <form class="control" action="/contact" method="post">
                 <div class="field">
                   <label class="label"
                     >Name <span class="has-text-danger">*</span></label
                   >
                   <div class="control">
                     <input
+                      name="name"
                       class="input"
                       type="text"
                       placeholder="e.g. John Doe"
+                      value="{{ old('name') }}"
                       required
                     />
+                    {{-- <div>{{ $erros->first('name') }}</div> --}}
+                    @error('name')
+                      <div class"">{{ $message }}</div>
+                    @enderror
                   </div>
                 </div>
                 <div class="field">
@@ -39,24 +45,40 @@
                   >
                   <div class="control has-icons-left has-icons-right">
                     <input
+                      name="email"
                       class="input"
                       type="email"
                       placeholder="e.g. john.doe@gmail.com"
+                      value="{{ old('email') }}"
                       required
                     /><span class="icon is-small is-left"
                       ><i class="fas fa-envelope"></i
                     ></span>
+                    {{-- <div>{{ $erros->first('email') }}</div> --}}
+                    @error('email')
+                      <div class"">{{ $message }}</div>
+                    @enderror
+
                   </div>
                 </div>
                 <div class="field">
                   <label class="label">Message</label>
                   <div class="control">
                     <textarea
+                      id="message"
+                      name="message"
                       class="textarea"
                       placeholder="Quote Inquiries"
                     ></textarea>
+                    {{-- <div>{{ $erros->first('message') }}</div> --}}
+                    @error('message')
+                      <div class"">{{ $message }}</div>
+                    @enderror
                   </div>
                 </div>
+
+                @csrf
+
                 <div class="field is-grouped">
                   <div class="control">
                     <button class="button is-link">Submit</button>
@@ -84,5 +106,12 @@
         </div>
       </div>
     </section>
+
+    @if (session('message'))
+      <div>
+        {{ session('message') }}
+      </div>
+    @endif
+    
 	</div>
 @endsection

@@ -8,7 +8,7 @@
           <h1
             class="white-title title has-text-shadow is-size-0 is-size-3-touch"
           >
-            KATC Construction Corp.
+            KATC Construction
           </h1>
           <h6
             class="white-title subtitle has-text-shadow is-size-5 is-size-7-touch"
@@ -24,7 +24,7 @@
       <div class="hero-body">
         <div class="container">
           <p class="is-size-2 is-size-4-touch">
-            At KATC Construction Corp., we promise to give your home or business
+            At KATC Construction, we promise to give your home or business
             the best roof in the industry. We start by using the industry's
             highest-quality roofing and waterproofing materials. We are
             dedicated to using superior products that last for decades.

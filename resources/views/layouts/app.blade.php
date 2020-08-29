@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="keywords"
-      content="KATC, Construction, roofing, shingles, miami, ft. lauderdale, florida, gutters"
+      content="KATC, construction, roofing, shingles, tar, miami, ft., fort, lauderdale, florida, gutters, west, palm, beach, south"
     />
     <meta name="author" content="Luminous Hilt" />
     <meta
@@ -34,9 +34,9 @@
             ><img
               class="mar-r-10"
               src="/img/house-logo.png"
-              alt="Katc Construction Corp. Company Logo"
+              alt="Katc Construction Company Logo"
             /><span class="navbar-company-name"
-              >Katc Construction Corp.</span
+              >Katc Construction</span
             ></a
           ><a
             class="navbar-burger katc-burger"
@@ -87,7 +87,8 @@
             </div>
           </div>
           <div class="flex-left">
-            <p>&copy; 2015 - {{ Date('Y') }} KATC Construction Corp.</p>
+            <p>&copy; 2015 - {{ Date('Y') }} KATC Construction Corp. &nbsp;All rights reserved.</p>
+            <p>State Certified Roofing Contractor<br/>CCC 1327957</p>
           </div>
         </div>
       </div>

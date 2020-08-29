@@ -18,7 +18,7 @@
       <div class="hero-body">
         <div class="container has-text-centered">
           <p class="is-size-3 is-size-5-touch">
-            KATC Construction Corporation can handle all of your residential and
+            KATC Construction can handle all of your residential and
             commercial roofing needs. &nbsp;We offer free estimates. &nbsp;We
             treat each customer with respect and ensure the quality of your new
             roof.<br />
@@ -58,7 +58,7 @@
               <p class="is-size-3 is-size-5-touch mar-t-20">
                 Residential roofing in Florida, whether it be a small repair
                 from a storm and strong winds or a much more extensive repair,
-                Miami Roof Repair can accommodate you. We know that life can be
+                KATC Construction can accommodate you. We know that life can be
                 busy and you may not have the time or the skills to work on your
                 roof yourself well, we do! Give us a call, and one of our
                 customer service reps will be more than happy to help you.
@@ -77,11 +77,11 @@
             <div class="column is-half is-tiled is-text flex-left">
               <h3 class="is-size-2 is-size-4-touch">Commercial Roofs</h3>
               <p class="is-size-3 is-size-5-touch mar-t-20">
-                Roofers In Broward County, it’s been a long time to come. Still,
+                Entrepreneurs in South Florida, it’s been a long time to come. &nbsp;Still,
                 you have finally started your local brick and mortar business.
                 Everything is going great. Then you discover there’s a leak, and
                 you realize you need to get it fixed. If you don’t, it could
-                cost you more than you ever imagined.
+                cost you more than you ever imagined.  Call us so we can help.
               </p>
             </div>
           </div>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="card-content">
                   <p class="is-size-4 is-size-6-touch">
-                    KATC Construction Corporation went the extra mile for me
+                    KATC Construction went the extra mile for me
                     when I needed their services to close on my client's home.
                     They work hard, do an excellent job at a very fair price!
                     Very happy with them, and they are on my vendor list for my
@@ -168,8 +168,8 @@
                 </div>
                 <div class="card-content">
                   <p class="is-size-4 is-size-6-touch">
-                    KATC Construction Corporation inspected my roof and
-                    suggested I do a patch and waterproofing seal. They saved me
+                    KATC Construction inspected my roof and suggested I do 
+                    a patch and waterproofing seal. They saved me
                     so much money. When I'm ready to replace my roof, I am
                     calling them.<br /><br />-Robert Goldstein
                   </p>
