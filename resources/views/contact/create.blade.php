@@ -108,8 +108,14 @@
     </section>
 
     @if (session('message'))
-      <div>
-        {{ session('message') }}
+      <div class="modal is-active">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+          <div class="box has-text-centered">
+            <p class="is-size-1 is-size-3-touch has-text-success">{{ session('message') }}</p>
+          </div>
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
       </div>
     @endif
     
