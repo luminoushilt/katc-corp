@@ -58,7 +58,7 @@
               <p class="is-size-3 is-size-5-touch mar-t-20">
                 Residential roofing in Florida, whether it be a small repair
                 from a storm and strong winds or a much more extensive repair,
-                KATC Construction can accommodate you. We know that life can be
+                KATC Construction can accommodate you. &nbsp;We know that life can be
                 busy and you may not have the time or the skills to work on your
                 roof yourself well, we do! Give us a call, and one of our
                 customer service reps will be more than happy to help you.
@@ -79,9 +79,9 @@
               <p class="is-size-3 is-size-5-touch mar-t-20">
                 Entrepreneurs in South Florida, it’s been a long time to come. &nbsp;Still,
                 you have finally started your local brick and mortar business.
-                Everything is going great. Then you discover there’s a leak, and
-                you realize you need to get it fixed. If you don’t, it could
-                cost you more than you ever imagined.  Call us so we can help.
+                &nbsp;Everything is going great. &nbsp;Then you discover there’s a leak, and
+                you realize you need to get it fixed. &nbsp;If you don’t, it could
+                cost you more than you ever imagined. &nbsp;Call us so we can help.
               </p>
             </div>
           </div>

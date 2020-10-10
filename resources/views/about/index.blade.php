@@ -47,7 +47,7 @@
               Construction to bring superior services to help meet
               the community’s roofing needs. Our company provides a wide variety
               of roofing services, which include repair, installation, and
-              remodeling. At KATC Construction, we utilize durable,
+              remodeling. &nbsp;At KATC Construction, we utilize durable,
               premium-grade materials, and specialize in shingles, tile, metal,
               flat roofs, and much more.
             </p>
@@ -77,7 +77,7 @@
               Our friendly, skilled, and professional staff will ensure that you
               are given the best available price and walk you through the
               project’s process. We service South Florida (Dade, Broward) and
-              also Palm Beach counties. “Why let rain from the outside come
+              also Palm Beach counties. &nbsp;“Why let rain from the outside come
               inside?” Call us for your free quote today!
             </p>
           </div>
